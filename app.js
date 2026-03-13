@@ -55,7 +55,7 @@ async function bootstrap() {
 
     setNeutralState(`
       <p><strong>${searchIndex.length}</strong> entités chargées.</p>
-      <p>Exemples de test : <em>Rangueil</em>, <em>Saint Siprien</em>, <em>Blagnac</em>, <em>Muret</em>.</p>
+      <p>Exemples de test : <em>Rangueil</em>, <em>Muret</em>.</p>
     `);
   } catch (error) {
     console.error(error);
