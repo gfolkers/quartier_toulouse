@@ -12,20 +12,40 @@ let searchIndex = [];
 
 const STATUS_LABELS = {
   quartier: 'Quartier de Toulouse reconnu',
-  'commune-metro': 'Commune de Toulouse Métropole reconnue',
-  'commune-hors': 'Commune hors Toulouse Métropole reconnue',
+  commune: 'Commune reconnue',
   uncertain: 'Correspondance probable',
   error: 'Aucune correspondance fiable',
   neutral: 'En attente d’une recherche',
 };
 
+async function loadJson(url) {
+  const res = await fetch(url);
+  if (!res.ok) {
+    throw new Error(`Erreur HTTP ${res.status} pour ${url}`);
+  }
+  return res.json();
+}
+
 async function bootstrap() {
   try {
     const [quartiers, communes, aliases] = await Promise.all([
-      fetch('./data/quartiers_toulouse.geojson').then((res) => res.json()),
-      fetch('./data/communes_occitanie.geojson').then((res) => res.json()),
-      fetch('./data/aliases.json').then((res) => res.json()),
+      loadJson('./data/quartiers_toulouse.geojson'),
+      loadJson('./data/communes_occitanie.geojson'),
+      loadJson('./data/aliases.json'),
     ]);
+
+    // Sécurisation : ajoute name_norm si absent
+    for (const feature of quartiers.features) {
+      if (!feature.properties.name_norm && feature.properties.name) {
+        feature.properties.name_norm = feature.properties.name;
+      }
+    }
+
+    for (const feature of communes.features) {
+      if (!feature.properties.name_norm && feature.properties.name) {
+        feature.properties.name_norm = feature.properties.name;
+      }
+    }
 
     searchIndex = buildSearchIndex(
       quartiers.features,
@@ -60,6 +80,7 @@ function setStatus(statusKey) {
 function buildResultHtml(match) {
   const { entry, score, certainty, ambiguous, alternatives = [] } = match;
   const p = entry.feature.properties;
+
   const quality = certainty === 'exact'
     ? 'Correspondance exacte'
     : certainty === 'alias'
@@ -72,7 +93,6 @@ function buildResultHtml(match) {
     lines.push('<p><strong>Type :</strong> quartier de Toulouse</p>');
   } else {
     lines.push('<p><strong>Type :</strong> commune</p>');
-    lines.push(`<p><strong>Périmètre :</strong> ${p.is_toulouse_metropole ? 'Toulouse Métropole' : 'hors Toulouse Métropole'}</p>`);
   }
 
   lines.push(`<p><strong>Qualité du match :</strong> ${quality}</p>`);
