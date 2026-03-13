@@ -3,8 +3,7 @@ const DEFAULT_ZOOM = 11;
 
 const STATUS_STYLES = {
   quartier: { color: '#6d28d9', fillOpacity: 0.16, weight: 3 },
-  'commune-metro': { color: '#0f766e', fillOpacity: 0.12, weight: 3 },
-  'commune-hors': { color: '#b45309', fillOpacity: 0.12, weight: 3 },
+  commune: { color: '#0f766e', fillOpacity: 0.12, weight: 3 },
 };
 
 export function createMap() {
@@ -19,7 +18,7 @@ export function createMap() {
   }).addTo(map);
 
   const highlightLayer = L.geoJSON(null, {
-    style: (feature) => STATUS_STYLES[getStatus(feature)] ?? STATUS_STYLES['commune-hors'],
+    style: (feature) => STATUS_STYLES[getStatus(feature)] ?? STATUS_STYLES.commune,
   }).addTo(map);
 
   let marker = null;
@@ -66,7 +65,7 @@ export function createMap() {
 function getStatus(feature) {
   const p = feature.properties;
   if (p.type === 'quartier') return 'quartier';
-  return p.is_toulouse_metropole ? 'commune-metro' : 'commune-hors';
+  return 'commune';
 }
 
 function getFeatureCenter(feature) {
