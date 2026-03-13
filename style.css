@@ -1,0 +1,226 @@
+:root {
+  --bg: #f4f7fb;
+  --panel: #ffffff;
+  --text: #1f2937;
+  --muted: #667085;
+  --border: #d9e2ec;
+  --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  --quartier: #6d28d9;
+  --commune-metro: #0f766e;
+  --commune-hors: #b45309;
+  --neutral: #475467;
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  min-height: 100vh;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 360px minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+  gap: 18px;
+  padding: 18px;
+}
+
+.topbar {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 18px;
+  align-items: stretch;
+}
+
+.title-block,
+.search-panel,
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+.title-block {
+  flex: 1 1 55%;
+  padding: 20px 24px;
+}
+
+.title-block h1 {
+  margin: 0 0 8px;
+  font-size: 1.8rem;
+}
+
+.title-block p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.search-panel {
+  flex: 1 1 45%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  padding: 16px;
+}
+
+.search-panel input {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 1rem;
+}
+
+.search-panel input:focus {
+  outline: 2px solid rgba(109, 40, 217, 0.15);
+  border-color: var(--quartier);
+}
+
+.search-panel button {
+  border: none;
+  border-radius: 12px;
+  padding: 0 18px;
+  font-weight: 700;
+  background: #111827;
+  color: white;
+  cursor: pointer;
+}
+
+.search-panel button:hover {
+  opacity: 0.92;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.card {
+  padding: 18px;
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 1.05rem;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.status-badge.neutral { background: #eaecf0; color: var(--neutral); }
+.status-badge.quartier { background: rgba(109, 40, 217, 0.12); color: var(--quartier); }
+.status-badge.commune-metro { background: rgba(15, 118, 110, 0.12); color: var(--commune-metro); }
+.status-badge.commune-hors { background: rgba(180, 83, 9, 0.12); color: var(--commune-hors); }
+.status-badge.uncertain { background: rgba(71, 84, 103, 0.12); color: var(--neutral); }
+.status-badge.error { background: rgba(185, 28, 28, 0.12); color: #b91c1c; }
+
+.result-content p,
+.result-content ul,
+.help-card ul {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.55;
+}
+
+.result-content ul,
+.help-card ul {
+  padding-left: 18px;
+}
+
+.help-card li + li,
+.result-content li + li {
+  margin-top: 8px;
+}
+
+.map-wrapper {
+  position: relative;
+  min-height: 560px;
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  min-height: 560px;
+}
+
+.map-legend {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  z-index: 500;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.legend-swatch.quartier { background: var(--quartier); }
+.legend-swatch.commune-metro { background: var(--commune-metro); }
+.legend-swatch.commune-hors { background: var(--commune-hors); }
+
+@media (max-width: 980px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    flex-direction: column;
+  }
+
+  .search-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .map-wrapper,
+  #map {
+    min-height: 480px;
+  }
+}

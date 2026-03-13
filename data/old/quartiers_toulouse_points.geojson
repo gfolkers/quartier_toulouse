@@ -1,0 +1,1160 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Michel",
+        "name_norm": "saint michel",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4446735033333333,
+          43.58782085666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cité Madrid",
+        "name_norm": "cite madrid",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4095555941176472,
+          43.613216645098035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rangueil",
+        "name_norm": "rangueil",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4591448,
+          43.5739511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Agne",
+        "name_norm": "saint agne",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4500254,
+          43.579252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Montaudran",
+        "name_norm": "montaudran",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4886224,
+          43.5736179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cité du 6 Avril 1944",
+        "name_norm": "cite du 6 avril 1944",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4776874,
+          43.5816894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Simon",
+        "name_norm": "saint simon",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3804069,
+          43.5573636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Barigoude",
+        "name_norm": "la barigoude",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3714165,
+          43.5902314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lardenne",
+        "name_norm": "lardenne",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3812652,
+          43.5906878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Le Mirail",
+        "name_norm": "le mirail",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3994086,
+          43.5761487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basso-Cambo",
+        "name_norm": "basso cambo",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3842578,
+          43.5719969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Côte Pavée",
+        "name_norm": "cote pavee",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.462521,
+          43.5959202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moscou",
+        "name_norm": "moscou",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4760181,
+          43.6004322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fer à Cheval",
+        "name_norm": "fer a cheval",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4345028,
+          43.5927348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bonhoure",
+        "name_norm": "bonhoure",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4676131,
+          43.6026682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guilheméry",
+        "name_norm": "guilhemery",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4621956,
+          43.6025572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soupetard",
+        "name_norm": "soupetard",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4781957,
+          43.6105062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Faubourg Bonnefoy",
+        "name_norm": "faubourg bonnefoy",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4573022,
+          43.6199045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Roseraie",
+        "name_norm": "la roseraie",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4711238,
+          43.6217132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amouroux",
+        "name_norm": "amouroux",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4680081,
+          43.6289019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Croix Daurade",
+        "name_norm": "croix daurade",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4640081,
+          43.6356437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Montblanc",
+        "name_norm": "montblanc",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4747939,
+          43.6358089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Les Minimes",
+        "name_norm": "les minimes",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4366531,
+          43.618306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Les Izards-Trois Cocus",
+        "name_norm": "les izards trois cocus",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4441678,
+          43.6392477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lalande",
+        "name_norm": "lalande",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4321546,
+          43.6467788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sept Deniers",
+        "name_norm": "sept deniers",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4109335,
+          43.6143591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Glacière",
+        "name_norm": "la glaciere",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4247331,
+          43.6461713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jolimont",
+        "name_norm": "jolimont",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4629966,
+          43.6143038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pouvourville",
+        "name_norm": "pouvourville",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4543505,
+          43.548012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Les Oustalous",
+        "name_norm": "les oustalous",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.424895,
+          43.5760228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Croix de Pierre",
+        "name_norm": "croix de pierre",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4274378,
+          43.5846459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Place Occitane",
+        "name_norm": "place occitane",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4495603,
+          43.603286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Sernin",
+        "name_norm": "saint sernin",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4417053,
+          43.6082938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Daurade",
+        "name_norm": "daurade",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4397115,
+          43.601326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michoun",
+        "name_norm": "michoun",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4681026,
+          43.626538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Cyprien",
+        "name_norm": "saint cyprien",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4305507,
+          43.5979059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Purpan",
+        "name_norm": "purpan",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3997613,
+          43.6062425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Martin-du-Touch",
+        "name_norm": "saint martin du touch",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3803671,
+          43.6088404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arènes",
+        "name_norm": "arenes",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4180349,
+          43.592159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capitole",
+        "name_norm": "capitole",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4434034,
+          43.6043653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Matabiau",
+        "name_norm": "matabiau",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4511998,
+          43.6122705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bordeblanche",
+        "name_norm": "bordeblanche",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3861227,
+          43.5834102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bordelongue",
+        "name_norm": "bordelongue",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4170152,
+          43.5707974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Empalot",
+        "name_norm": "empalot",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4397247,
+          43.5798611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cagueloule",
+        "name_norm": "cagueloule",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3687312,
+          43.5914883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Calquet",
+        "name_norm": "calquet",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3772553,
+          43.596302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Teynier",
+        "name_norm": "teynier",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3886011,
+          43.5955289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "les Capelles",
+        "name_norm": "les capelles",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3836926,
+          43.5956377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Griffoulet",
+        "name_norm": "griffoulet",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3912296,
+          43.5972461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baluffet",
+        "name_norm": "baluffet",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3916695,
+          43.6023623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maubec",
+        "name_norm": "maubec",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.38991,
+          43.6050155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Bourgade",
+        "name_norm": "la bourgade",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3655072,
+          43.5952978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chabanassy",
+        "name_norm": "chabanassy",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3673793,
+          43.5980298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Négreneys",
+        "name_norm": "negreneys",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4427467,
+          43.6258147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Virebent",
+        "name_norm": "virebent",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.46371,
+          43.6538763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ginestous",
+        "name_norm": "ginestous",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4108955,
+          43.6387306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brouardel",
+        "name_norm": "brouardel",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4252195,
+          43.6100618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monplaisir",
+        "name_norm": "monplaisir",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4558855,
+          43.5917877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Borderouge",
+        "name_norm": "borderouge",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4527129,
+          43.6386971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arago",
+        "name_norm": "arago",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4576888,
+          43.6149694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marengo",
+        "name_norm": "marengo",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4568613,
+          43.6112605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Colonne",
+        "name_norm": "la colonne",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4600023,
+          43.6095616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Les Izards",
+        "name_norm": "les izards",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4442078,
+          43.6417125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Les Cocus",
+        "name_norm": "les cocus",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4451332,
+          43.6364137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Gloire",
+        "name_norm": "la gloire",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4703347,
+          43.6074522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Roch",
+        "name_norm": "saint roch",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.44403,
+          43.5819619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Les Récollets",
+        "name_norm": "les recollets",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4440382,
+          43.5837792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Bourdette",
+        "name_norm": "la bourdette",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4640784,
+          43.5561683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Pointe",
+        "name_norm": "la pointe",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4235446,
+          43.5791956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fontaine Bayonne",
+        "name_norm": "fontaine bayonne",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4187688,
+          43.5985733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chapitre",
+        "name_norm": "chapitre",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4094871,
+          43.5576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tabar",
+        "name_norm": "tabar",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4139226,
+          43.5708428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thibaud",
+        "name_norm": "thibaud",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4013138,
+          43.5504444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belfort",
+        "name_norm": "belfort",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4502341,
+          43.608773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raisin",
+        "name_norm": "raisin",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4460236,
+          43.6182825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Les Mazades",
+        "name_norm": "les mazades",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4397299,
+          43.6235151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cité Bourbaki",
+        "name_norm": "cite bourbaki",
+        "type": "quartier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4303633,
+          43.6233046
+        ]
+      }
+    }
+  ]
+}

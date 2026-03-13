@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quartier ou commune ?</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="title-block">
+        <h1>Quartier ou commune&nbsp;?</h1>
+        <p>Recherche tolérante pour distinguer un quartier de Toulouse d’une commune.</p>
+      </div>
+
+      <form id="search-form" class="search-panel" autocomplete="off">
+        <label for="search-input" class="sr-only">Saisie libre</label>
+        <input
+          id="search-input"
+          name="search"
+          type="text"
+          placeholder="Ex. Rangueil, Saint Siprien, Blgnac..."
+          spellcheck="false"
+        />
+        <button type="submit">Rechercher</button>
+      </form>
+    </header>
+
+    <aside class="side-panel">
+      <section class="card result-card">
+        <h2>Résultat</h2>
+        <div id="status-badge" class="status-badge neutral">En attente d’une recherche</div>
+        <div id="result-content" class="result-content">
+          <p>Saisis un quartier ou une commune pour lancer la recherche.</p>
+        </div>
+      </section>
+
+      <section class="card help-card">
+        <h2>Règles</h2>
+        <ul>
+          <li>Recherche insensible aux accents et tirets.</li>
+          <li>Prise en charge des alias et des fautes simples.</li>
+          <li>Différencie quartier de Toulouse, commune Toulouse Métropole et commune hors métropole.</li>
+        </ul>
+      </section>
+    </aside>
+
+    <main class="map-wrapper">
+      <div id="map"></div>
+      <div class="map-legend">
+        <span><i class="legend-swatch quartier"></i> Quartier de Toulouse</span>
+        <span><i class="legend-swatch commune-metro"></i> Commune Toulouse Métropole</span>
+        <span><i class="legend-swatch commune-hors"></i> Commune hors métropole</span>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

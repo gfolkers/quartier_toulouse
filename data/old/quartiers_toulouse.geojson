@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rangueil",
+        "type": "quartier",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[1.448,43.561],[1.469,43.561],[1.469,43.578],[1.448,43.578],[1.448,43.561]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint Cyprien",
+        "type": "quartier",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[1.417,43.595],[1.436,43.595],[1.436,43.607],[1.417,43.607],[1.417,43.595]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Borderouge",
+        "type": "quartier",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[1.456,43.637],[1.477,43.637],[1.477,43.653],[1.456,43.653],[1.456,43.637]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lardenne",
+        "type": "quartier",
+        "city": "Toulouse"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[1.372,43.589],[1.395,43.589],[1.395,43.603],[1.372,43.603],[1.372,43.589]]]
+      }
+    }
+  ]
+}
