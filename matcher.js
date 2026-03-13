@@ -31,11 +31,12 @@ function similarityScore(a, b) {
 
 function getStatusFromFeature(feature) {
   if (feature.properties.type === 'quartier') return 'quartier';
-  return feature.properties.is_toulouse_metropole ? 'commune-metro' : 'commune-hors';
+  return 'commune';
 }
 
 function buildLabel(feature) {
   const p = feature.properties;
+
   if (p.type === 'quartier') {
     return {
       title: p.name,
@@ -46,10 +47,8 @@ function buildLabel(feature) {
 
   return {
     title: p.name,
-    subtitle: p.is_toulouse_metropole
-      ? 'Commune de Toulouse Métropole'
-      : 'Commune hors Toulouse Métropole',
-    status: getStatusFromFeature(feature),
+    subtitle: 'Commune',
+    status: 'commune',
   };
 }
 
@@ -59,7 +58,9 @@ export function buildSearchIndex(quartiersFeatures, communesFeatures, aliasMap) 
 
   for (const feature of features) {
     const officialName = feature.properties.name;
-    const normalizedOfficialName = normalizeText(officialName);
+    const normalizedOfficialName = normalizeText(
+      feature.properties.name_norm || officialName
+    );
     const aliases = aliasMap[normalizedOfficialName] ?? [];
 
     entries.push({
